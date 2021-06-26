@@ -1,17 +1,43 @@
 body {
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(165, 165, 165);
     font-size: 1.2rem;
+    color: rgb(3, 65, 199);
     margin: 0px;
 }
 header {
-    background-color: 
     margin: 0px;
     overflow-x: hidden;
 }
 #top {
     text-align: center;
     font-size: 65px;
-    color: rgb(50, 104, 252);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0;
+    background-color: rgb(211, 211, 211);
 }
+#photo_description {
+    display: inline;
+}
+#photo {
+    border: 5px solid rgb(211, 211, 211);
+    border-radius: 50px;
+    margin-left: 25%;
+}
+figcaption {
+    background-color: rgb(211, 211, 211);
+    display: inline;
+    position: absolute;
+    width: 300px;
+    line-height: 35px;
+    margin: 70px 100px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+#social_medias {
+    display;
+    margin-left: 85%;
+    position: fixed;
+}
+
